@@ -675,6 +675,7 @@ svg {
 }
 
 .is-hidden {
+  visibility: visible;
   opacity: 0;
   pointer-events: none;
 }
