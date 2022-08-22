@@ -138,8 +138,7 @@ svg {
 
 .site-nav-link {
   position: relative;
-  transition: color 250ms var(--cubic-style),
-    background-color 250ms var(--cubic-style);
+  transition: color 250ms var(--cubic-style);
 
   color: var(--main-color-text);
   font-weight: 500;
@@ -427,8 +426,7 @@ svg {
 }
 
 .clients-link {
-  transition: color 250ms var(--cubic-style),
-    background-color 250ms var(--cubic-style), border 250ms var(--cubic-style);
+  transition: color 250ms var(--cubic-style), border 250ms var(--cubic-style);
 
   width: 170px;
   height: 92px;
@@ -482,8 +480,7 @@ svg {
   min-width: 231px;
 }
 .address-item-link {
-  transition: color 250ms var(--cubic-style),
-    background-color 250ms var(--cubic-style);
+  transition: color 250ms var(--cubic-style);
 
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
