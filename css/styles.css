@@ -96,7 +96,7 @@ svg {
   background-color: var(--accent);
 
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 
   border-radius: 2px;
@@ -163,10 +163,10 @@ svg {
 .header-contacts {
   display: flex;
   list-style-type: none;
+  column-gap: 50px;
 }
 .header-contacts-link {
-  transition: color 250ms var(--cubic-style),
-    background-color 250ms var(--cubic-style);
+  transition: color 250ms var(--cubic-style);
 
   color: var(--secondary-text-color);
   fill: currentColor;
@@ -185,10 +185,6 @@ svg {
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: var(--accent);
-}
-
-.header-contacts-item + .header-contacts-item {
-  margin-left: 50px;
 }
 
 .icon-contacts {
@@ -234,8 +230,7 @@ svg {
 }
 
 .hero-btn {
-  transition: color 250ms var(--cubic-style),
-    background-color 250ms var(--cubic-style);
+  transition: background-color 250ms var(--cubic-style);
 
   background-color: var(--accent);
   color: var(--fon-main-color);
@@ -254,8 +249,6 @@ svg {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--hero-btn-bgc-hover);
-  color: var(--fon-main-color);
-  box-shadow: var(--hero-btn-shadow);
 }
 
 /*Benefits*/
@@ -519,8 +512,7 @@ svg {
 }
 
 .footer-social-web-link {
-  transition: color 250ms var(--cubic-style),
-    background-color 250ms var(--cubic-style);
+  transition: background-color 250ms var(--cubic-style);
 
   display: flex;
   align-items: center;
